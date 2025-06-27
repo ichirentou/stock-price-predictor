@@ -20,8 +20,7 @@ LSTMによるNTTの株価データの予測。
 
 ####　 プロジェクト構成
 
-markdown
-
+```python
 ├── README.md
 ├── notebooks/  
 │ ├── eda.ipynb # データの探索的分析（EDA）
@@ -37,7 +36,7 @@ markdown
 ├── lstm_model2.py # 別構成
 └── lstm_model3.py # 別構成
 
-markdown
+```
 ---
 
 #### 結果
