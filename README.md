@@ -20,22 +20,24 @@ LSTMによるNTTの株価データの予測。
 
 ####　 プロジェクト構成
 
-- ├── README.md
-- |          
-- ├── notebooks/
-- │    ├── lstm_prediction.ipynb  　　　　　 ##プロトタイプのLSTMモデル
-- |    ├── lstm_prediction2.ipynb　　　　　　##LSTM層を4段にした実装
-- |    ├── lstm_prediction3.ipynb           ##ドロップアウトの値を調整した実装
-- |    ├── eda.ipynb 
-- |    └── stock_price.csv    　　　　　　##株価のデータ
-- ├── utils/
-- |     ├── processing_lstm.py           # データ前処理関数   
-- │     └── processing_lstm2.py                            
-- └── models/
--     ├── lstm_model.py                  # LSTMモデルの構築と訓練、予測関数
--     ├── lstm_model2.py                 # LSTMモデルの構築と訓練、予測関数
--     └── lstm_model3.py                 # LSTMモデルの構築と訓練、予測関数
+markdown
 
+├── README.md
+├── notebooks/  
+│ ├── eda.ipynb # データの探索的分析（EDA）
+│ ├── lstm_prediction.ipynb # プロトタイプのLSTMモデル
+│ ├── lstm_prediction2.ipynb # LSTM層を4段にした実装
+│ ├── lstm_prediction3.ipynb # ドロップアウト率を調整した実装
+│ └── stock_price.csv # 株価データ
+├── utils/ 
+│ ├── processing_lstm.py # 前処理関数の実装
+│ └── processing_lstm2.py # 別アプローチの前処理関数
+└── models/ 
+├── lstm_model.py # LSTMモデル構築・訓練・予測関数
+├── lstm_model2.py # 別構成
+└── lstm_model3.py # 別構成
+
+markdown
 ---
 
 #### 結果
